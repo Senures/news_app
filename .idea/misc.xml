@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/NewsApp/app/src/main/res/drawable/btn_bg.xml" value="0.239" />
+        <entry key="..\:/NewsApp/app/src/main/res/drawable/custom_background.xml" value="0.223" />
+        <entry key="..\:/NewsApp/app/src/main/res/drawable/ic_baseline_arrow_forward_24.xml" value="0.1" />
+        <entry key="..\:/NewsApp/app/src/main/res/drawable/img_bg_color.xml" value="0.238" />
+        <entry key="..\:/NewsApp/app/src/main/res/layout/activity_main.xml" value="0.22327898550724637" />
+        <entry key="..\:/NewsApp/app/src/main/res/layout/fragment_detail.xml" value="0.2328125" />
+        <entry key="..\:/NewsApp/app/src/main/res/layout/fragment_first_page.xml" value="0.4" />
+        <entry key="..\:/NewsApp/app/src/main/res/layout/fragment_home.xml" value="0.2171875" />
+        <entry key="..\:/NewsApp/app/src/main/res/layout/horizantal_list_item.xml" value="0.2171875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
