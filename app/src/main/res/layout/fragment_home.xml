@@ -13,24 +13,28 @@
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="44dp"
-        android:text="WELCOME"
-        android:textColor="@color/black"
-        android:textSize="18sp"
+        android:layout_marginTop="48dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="192dp"
+        android:text="News App"
+
+        android:textColor="#181818"
+        android:textSize="25sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:layout_marginStart="16dp"
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="28dp"
-        android:src="@drawable/news"
+        android:background="@drawable/icon_bg"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
 
     <SearchView
         android:layout_width="match_parent"
@@ -68,4 +72,5 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
